@@ -8,8 +8,8 @@ defmodule FibEx do
 
   ## Examples
 
-      iex> FibEx.nth_element(2)
-      4
+      iex> FibEx.nth_element(10)
+      55
 
   """
 def nth_element(n) when n < 0, do: raise(ArgumentError, message: "n must be greater than 0")
